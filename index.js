@@ -2,7 +2,7 @@ const Telnet = require('telnet-client');
 const ping = require('ping');
 
 const PING_HOST = 'www.google.com';
-const TELNET_HOST = 'localhost';
+const TELNET_HOST = 'Optus.AC800S';
 const TELNET_PORT = 5510
 const AT_COMMAND = 'AT!GSTATUS?';
 
