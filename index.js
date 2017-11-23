@@ -14,8 +14,8 @@ async function printBand(){
     timeout: 1500
   }
   await connection.connect(params);
-  let res =  await connection.exec('AT!GETBAND')
-  console.log('BAND', new Date().toISOString(), res);
+  let res =  await connection.exec(AT_COMMAND)
+  console.log(AT_COMMAND, new Date().toISOString(), res);
 }
 
 function pingHost(){
