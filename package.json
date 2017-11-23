@@ -11,6 +11,7 @@
   "dependencies": {
     "bruteforce": "0.0.2",
     "ping": "^0.2.2",
-    "telnet-client": "^0.15.5"
+    "telnet-client": "^0.15.5",
+    "telnet-rxjs": "^2.0.3"
   }
 }
